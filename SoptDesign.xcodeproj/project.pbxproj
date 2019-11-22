@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD74E882386833C00EE9708 /* FavoriteCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD74E872386833C00EE9708 /* FavoriteCVCell.swift */; };
+		3AD74E8A2386834B00EE9708 /* BeautyCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD74E892386834B00EE9708 /* BeautyCVCell.swift */; };
+		3AD74E8C2386836700EE9708 /* CouponCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD74E8B2386836700EE9708 /* CouponCVCell.swift */; };
+		3AD74E9023868AAD00EE9708 /* CellStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD74E8F23868AAD00EE9708 /* CellStruct.swift */; };
+		3AD74E942387C39500EE9708 /* FavoriteAddCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD74E932387C39500EE9708 /* FavoriteAddCVCell.swift */; };
 		5E193E1A2381861900A1167A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193E192381861900A1167A /* UIViewController+Extensions.swift */; };
 		5E299C6D237FDA7500CFC22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E299C6C237FDA7500CFC22B /* AppDelegate.swift */; };
 		5E299C6F237FDA7500CFC22B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E299C6E237FDA7500CFC22B /* SceneDelegate.swift */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AD74E872386833C00EE9708 /* FavoriteCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCVCell.swift; sourceTree = "<group>"; };
+		3AD74E892386834B00EE9708 /* BeautyCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyCVCell.swift; sourceTree = "<group>"; };
+		3AD74E8B2386836700EE9708 /* CouponCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCVCell.swift; sourceTree = "<group>"; };
+		3AD74E8F23868AAD00EE9708 /* CellStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStruct.swift; sourceTree = "<group>"; };
+		3AD74E932387C39500EE9708 /* FavoriteAddCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAddCVCell.swift; sourceTree = "<group>"; };
 		5E193E192381861900A1167A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		5E299C69237FDA7500CFC22B /* SoptDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoptDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E299C6C237FDA7500CFC22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AD74E8D23868A7700EE9708 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3AD74E8E23868A8F00EE9708 /* Utility */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3AD74E8E23868A8F00EE9708 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3AD74E8F23868AAD00EE9708 /* CellStruct.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		5E299C60237FDA7500CFC22B = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +94,7 @@
 		5E299C6B237FDA7500CFC22B /* SoptDesign */ = {
 			isa = PBXGroup;
 			children = (
+				3AD74E8D23868A7700EE9708 /* Util */,
 				5E299C86237FDEF900CFC22B /* SupportingFiles */,
 				5E299C81237FDAA100CFC22B /* Resources */,
 				5E299C80237FDA9C00CFC22B /* Sources */,
@@ -100,6 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				5E299C70237FDA7500CFC22B /* ViewController.swift */,
+				3AD74E872386833C00EE9708 /* FavoriteCVCell.swift */,
+				3AD74E932387C39500EE9708 /* FavoriteAddCVCell.swift */,
+				3AD74E892386834B00EE9708 /* BeautyCVCell.swift */,
+				3AD74E8B2386836700EE9708 /* CouponCVCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -225,10 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD74E9023868AAD00EE9708 /* CellStruct.swift in Sources */,
 				5E193E1A2381861900A1167A /* UIViewController+Extensions.swift in Sources */,
 				5E299C71237FDA7500CFC22B /* ViewController.swift in Sources */,
+				3AD74E8A2386834B00EE9708 /* BeautyCVCell.swift in Sources */,
 				5E299C6D237FDA7500CFC22B /* AppDelegate.swift in Sources */,
 				5E299C6F237FDA7500CFC22B /* SceneDelegate.swift in Sources */,
+				3AD74E942387C39500EE9708 /* FavoriteAddCVCell.swift in Sources */,
+				3AD74E882386833C00EE9708 /* FavoriteCVCell.swift in Sources */,
+				3AD74E8C2386836700EE9708 /* CouponCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
